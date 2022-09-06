@@ -1,0 +1,85 @@
+/* цвет основного текста */
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.list {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+  }
+
+
+
+
+.header-link {
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+.contacts-link {
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.hero {
+
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+}
+.hero-title {
+font-family: 'Roboto';
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.hero-btn {
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+
+}
+
+.logo {
+  color: black;
+}
+.site-nav li a {
+  color: #212121;
+}
+.site-nav li a:hover {
+  color: #2196f3;
+}
+.site-nav li a:focus {
+  color: #2196f3;
+}
+.contacts li a {
+  color: #757575;
+}
+.contacts li a:hover {
+  color: #2196f3;
+}
+.contacts li a:focus {
+  color: #2196f3;
+}
+.span{
+    color: #2196F3
+}
