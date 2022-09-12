@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #212121;
 }
 .list {
   list-style: none;
@@ -9,12 +10,11 @@ a {
 }
 :root {
   --first-title-color: #212121;
-  --design-color: #2196F3
+  --design-color: #2196f3;
 }
-.site-nav .header-link.current{
-    color: var(--design-color);
+.site-nav .header-link.current {
+  color: var(--design-color);
 }
-
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -55,11 +55,15 @@ a {
   color: #ffffff;
 }
 .hero-btn {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
+  cursor: pointer;
+  background-color: var(--design-color);
 }
 
 .topic-title {
@@ -140,12 +144,15 @@ a {
   color: var(--design-color);
 }
 /*portfolio*/
-.portfolio-btn {
+.portfolio-btn-link {
+  font-family: 'Roboto';
+font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--first-title-color);
+  cursor: pointer;
 }
 .project-title {
   font-weight: 700;
@@ -169,6 +176,9 @@ a {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+img{
+  display: block;
+}
 .footer {
   background-color: #2f303a;
 }
@@ -178,14 +188,16 @@ a {
 .footer-address > a:hover {
   color: var(--design-color);
 }
-.portfolio-btn-link {
-  cursor: pointer;
-}
-.portfolio-btn :hover {
+
+.portfolio-btn-link:hover {
   color: #ffffff;
+}
+.portfolio-btn-link:hover {
   background-color: var(--design-color);
 }
-.portfolio-btn :focus {
+.portfolio-btn-link:focus {
   color: #ffffff;
+}
+.portfolio-btn-link:focus {
   background-color: var(--design-color);
 }
